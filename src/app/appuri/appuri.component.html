@@ -7,5 +7,6 @@
   <br>
   <button type="button" class="btn btn-primary" style="margin-top: 15px;" (click)="search(in.value)">Button</button>
 </div>
-<p>{{searchj|json}}</p>
+<b *ngIf="condition">{{errormsg}}</b>
 </div>
+<p *ngIf="condition==false">{{searchj|json}}</p>
