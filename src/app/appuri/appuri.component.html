@@ -1,0 +1,11 @@
+<div id="ctn">
+<h1>APPURI</h1>
+<div class="mb-3">
+  <label for="" class="form-label"></label>
+  <input type="text" #in>
+  <small id="helpId" class="form-text text-muted">Help text</small>
+  <br>
+  <button type="button" class="btn btn-primary" style="margin-top: 15px;" (click)="search(in.value)">Button</button>
+</div>
+<p>{{searchj|json}}</p>
+</div>
