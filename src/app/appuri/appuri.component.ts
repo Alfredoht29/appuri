@@ -33,6 +33,10 @@ export class AppuriComponent implements OnInit {
         this.errormsg="El id buscado no existe";
         this.condition=true;
       }
+      else{
+        this.errormsg="El servicio no esta disponible";
+        this.condition=true;
+      }
     })
   }
 }
